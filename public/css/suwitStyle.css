@@ -1,0 +1,267 @@
+/* background body */
+.container-suwit{
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #9C835F;
+    }
+
+.img-logo{
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 119px;
+    top: 27px;
+    }
+
+.paragraf1{
+    position: absolute;
+    width: 410px;
+    height: 62px;
+    left: 218px;
+    top: 15px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #F9B23D;
+    }
+
+
+/* player */
+#player{
+    position: absolute;
+    width: 299px;
+    height: 94px;
+    left: 296px;
+    top: 152px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+    }
+.player_batu{
+    position: absolute;
+    width: 128px;
+    height: 92px;
+    left: 382px;
+    top: 267px;
+}
+.player_kertas{
+    position: absolute;
+    width: 115px;
+    height: 150px;
+    left: 388px;
+    top: 440px;
+    }
+.player_gunting{
+    position: absolute;
+    width: 134px;
+    height: 160px;
+    left: 369px;
+    top: 671px;
+    }
+
+/* computer */
+#com{
+    position: absolute;
+    width: 299px;
+    height: 94px;
+    left: 865px;
+    top: 142px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+    }
+.com_batu{
+    position: absolute;
+    width: 128px;
+    height: 92px;
+    left: 951px;
+    top: 267px;
+    }
+.com_kertas{
+    position: absolute;
+    width: 115px;
+    height: 150px;
+    left: 970px;
+    top: 440px;
+    }
+.com_gunting{
+    position: absolute;
+    width: 134px;
+    height: 160px;
+    left: 951px;
+    top: 671px;    
+    }
+
+/* refresh button */
+ #btn-refresh{
+    position: absolute;
+    width: 77px;
+    height: 71px;
+    left: 681px;
+    top: 843px;
+    }
+
+
+ /* ACTIVE    */
+.active_batu_player{
+    position: absolute;
+    width: 223px;
+    height: 204px;
+    left: 334px;
+    top: 222px;
+    background: #C4C4C4;
+    border-radius: 30px;
+    }
+.active_batu_com{
+    position: absolute;
+    width: 223px;
+    height: 204px;
+    left: 903px;
+    top: 209px;
+    background: #C4C4C4;
+    border-radius: 30px;
+    }
+.active_player_win{
+    position: absolute;
+    width: 223px;
+    height: 204px;
+    left: 334px;
+    top: 671px;
+    background: #C4C4C4;
+    border-radius: 30px;
+    }
+.active_com_win{
+    position: absolute;
+    width: 223px;
+    height: 204px;
+    left: 910px;
+    top: 413px;
+    background: #C4C4C4;
+    border-radius: 30px;
+    }
+
+
+/* info */
+.info {
+    position: absolute;
+    width: 296px;
+    height: 186px;
+    left: 589px;
+    top: 280px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 196px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #BD0000;
+    }
+
+.informasi {
+    position: absolute;
+    width: 296px;
+    height: 186px;
+    left: 589px;
+    top: 280px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 196px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #BD0000;
+    }
+    
+.player_info_win{
+    position: absolute;
+    width: 271.11px;
+    height: 226.93px;
+    left: 581px;
+    top: 489.89px;
+    background: #4C9654;
+    border-radius: 10px;
+    transform: rotate(-28.87deg);
+}
+.com_info_win{
+    position: absolute;
+    width: 271.11px;
+    height: 166.93px;
+    left: 561px;
+    top: 489.89px;
+    background: #4C9654;
+    border-radius: 10px;
+    transform: rotate(-28.87deg);
+    }
+
+.draw{
+    position: absolute;
+    width: 271.11px;
+    height: 166.93px;
+    left: 561px;
+    top: 489.89px;
+    background: #035B0C;
+    border-radius: 10px;
+    transform: rotate(-28.87deg);
+    }
+
+.text{
+    position: absolute;
+    width: 296px;
+    height: 196px;
+    left: 568px;
+    top: 525.37px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(-30.98deg);
+    }
+
+.text2{
+    position: absolute;
+    width: 296px;
+    size: 38px;
+    line-height: 51.75px;
+    text-align: center;
+    height: 156px;
+    left: 5px;
+    top: 10.37px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(-1.98deg);
+    }
